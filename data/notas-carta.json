@@ -1,0 +1,9 @@
+{
+  "_nota": "Descripciones de una línea, genéricas, solo para platos y bebidas nicas que en Zafra pueden no conocerse. TODAS [REVISAR CLIENTE]: escritas por nosotros, no por la casa. En la web salen en cursiva con ‡. Borrar una línea aquí la quita de la web (node scripts/construir.mjs).",
+  "Repocheta": "Tortilla de maíz frita con frijoles y queso.",
+  "Tajadas con queso": "Plátano verde frito en láminas, con queso.",
+  "Maduro con queso": "Plátano maduro frito, con queso.",
+  "Rojita": "Refresco rojo de Nicaragua.",
+  "Cerveza Toña": "Cerveza de Nicaragua.",
+  "Ron Flor de Caña": "Ron de Nicaragua."
+}

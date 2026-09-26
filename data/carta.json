@@ -1,0 +1,82 @@
+{
+  "_fuente": "Foto de la carta plastificada + lista de texto del cliente, 2026-09-26. «/R» = por ración (a confirmar con el cliente). Precio null = desconocido: NO inventar.",
+  "_campos": {
+    "precio": "euros (número) o null si no se conoce",
+    "por": "\"racion\" si la carta pone /R; si no, se omite",
+    "orilla": "\"aqui\" (Zafra/ibérico), \"alla\" (Nicaragua y Latinoamérica) o \"compartida\" (brasa y asados); lo usa sobre todo la web Dos orillas",
+    "verificar": "motivo por el que hay que confirmarlo con el cliente"
+  },
+  "destacados": ["Rojita", "Surtido ibérico", "Carrillera en salsa"],
+  "alergenos": "Consulta los alérgenos a nuestro personal.",
+  "secciones": [
+    {
+      "id": "entrantes",
+      "titulo": "Entrantes",
+      "platos": [
+        { "nombre": "Surtido ibérico", "precio": 15, "por": "racion", "orilla": "aqui" },
+        { "nombre": "Jamón ibérico", "precio": 12, "por": "racion", "orilla": "aqui" },
+        { "nombre": "Lomo ibérico", "precio": 12, "por": "racion", "orilla": "aqui" },
+        { "nombre": "Queso", "precio": 10, "por": "racion", "orilla": "aqui" },
+        { "nombre": "Ensalada mixta", "precio": 5, "orilla": "aqui" },
+        { "nombre": "Croquetas", "precio": 10, "por": "racion", "orilla": "aqui" },
+        { "nombre": "Bacalao dorado nata", "precio": 10, "por": "racion", "orilla": "aqui" },
+        { "nombre": "Nachos de la casa", "precio": 8, "orilla": "alla" },
+        { "nombre": "Repocheta", "precio": 3, "orilla": "alla" },
+        { "nombre": "Enchilada", "precio": 8, "por": "racion", "orilla": "alla" },
+        { "nombre": "Tacos nicas", "precio": 8, "por": "racion", "orilla": "alla" },
+        { "nombre": "Tacos mexicanos", "precio": 10, "por": "racion", "orilla": "alla", "verificar": "precio medio tapado por un reflejo en la foto" },
+        { "nombre": "Maduro con queso", "precio": 8, "orilla": "alla", "verificar": "precio medio tapado por un reflejo en la foto" },
+        { "nombre": "Tajadas con queso", "precio": 8, "orilla": "alla", "verificar": "precio medio tapado por un reflejo en la foto" }
+      ]
+    },
+    {
+      "id": "carnes",
+      "titulo": "Carnes",
+      "platos": [
+        { "nombre": "Carrillera en salsa", "precio": 11, "orilla": "compartida" },
+        { "nombre": "Solomillo ibérico a la brasa", "precio": 11, "orilla": "compartida" },
+        { "nombre": "Abanico ibérico a la brasa", "precio": 11, "orilla": "compartida" },
+        { "nombre": "Magro a la brasa", "precio": 11, "orilla": "compartida" },
+        { "nombre": "Pollo frito", "precio": 10, "orilla": "compartida" },
+        { "nombre": "Pollo asado nica", "precio": null, "orilla": "compartida", "verificar": "precio ilegible en la foto" },
+        { "nombre": "Cerdo asado", "precio": 10, "orilla": "compartida" },
+        { "nombre": "Res asado", "precio": 12, "orilla": "compartida" },
+        { "nombre": "Jalapeño", "precio": 12, "orilla": "compartida", "verificar": "no está claro qué plato es; se deja el nombre literal de la carta" },
+        { "nombre": "Churrasco con chimichurri argentino", "precio": 12, "orilla": "compartida" },
+        { "nombre": "Lengua de ternera en salsa", "precio": 12, "orilla": "compartida" }
+      ]
+    },
+    {
+      "id": "pescado",
+      "titulo": "Pescado",
+      "platos": [
+        { "nombre": "Dorada frita", "precio": 12, "orilla": "compartida" },
+        { "nombre": "Sepia a la plancha", "precio": 12, "orilla": "compartida" }
+      ]
+    },
+    {
+      "id": "postres",
+      "titulo": "Postres",
+      "nota": "3 € cada uno",
+      "platos": [
+        { "nombre": "Arroz con leche", "precio": 3, "orilla": "compartida" },
+        { "nombre": "Flan de huevo / de queso", "precio": 3, "orilla": "compartida" },
+        { "nombre": "Maduro con leche condensada", "precio": 3, "orilla": "alla", "verificar": "sale en la foto de la carta pero no en la lista de texto del cliente; manda la foto" }
+      ]
+    },
+    {
+      "id": "bebidas",
+      "titulo": "Bebidas latinas",
+      "nota": "Solo nombres, sin logos ni etiquetas de marca.",
+      "platos": [
+        { "nombre": "Rojita", "precio": null, "orilla": "alla" },
+        { "nombre": "Uva Boston", "precio": null, "orilla": "alla" },
+        { "nombre": "Smirnoff", "precio": null, "orilla": "alla" },
+        { "nombre": "Refrescos naturales", "precio": null, "orilla": "alla" },
+        { "nombre": "Cerveza Corona", "precio": null, "orilla": "alla" },
+        { "nombre": "Cerveza Toña", "precio": null, "orilla": "alla" },
+        { "nombre": "Ron Flor de Caña", "precio": null, "orilla": "alla" }
+      ]
+    }
+  ]
+}
